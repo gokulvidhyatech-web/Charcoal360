@@ -1,21 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import Login from "./Pages/Login/Loginpage";
-import Dashboard from "./Pages/Dashboard/Dashboard";
-
+import Home from "./Pages/Website/Home";
+import About from "./Pages/Website/About";
+import ServicesPage from "./Pages/Website/ServicesPage";
+import PortfolioPage from "./Pages/Website/PortfolioPage";
+import "./style.css";
 function App() {
   return (
-    <BrowserRouter>
-
-      <Routes>
-
-        <Route path="/" element={<Login />} />
-
-        <Route path="/dashboard" element={<Dashboard />} />
-
-      </Routes>
-
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<ServicesPage />} />
+      <Route path="/portfolio" element={<PortfolioPage />} />
+    </Routes>
   );
 }
 
