@@ -46,7 +46,7 @@ export default function Header() {
         <div className="header-actions">
 
           <span className="header-phone">
-            +91 12345 67890
+            +91 7299128552
           </span>
 
           <a href="#contact" className="header-button">

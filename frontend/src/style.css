@@ -345,8 +345,8 @@ ul {
 }
 
 .brand img {
-  width: 125px;
-  height: 60px;
+  width: 140px;
+  height: 100px;
 
   object-fit: contain;
 }
@@ -358,7 +358,7 @@ ul {
 
   align-items: center;
 
-  gap: 34px;
+  gap: 36px;
 }
 
 .main-nav a {
@@ -368,7 +368,7 @@ ul {
 
   color: #aeb9c8;
 
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
 
   transition: color 0.2s ease;
@@ -416,7 +416,7 @@ ul {
 
   color: #d4deea;
 
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .menu-button {
